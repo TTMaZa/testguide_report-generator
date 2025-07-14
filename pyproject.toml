@@ -8,14 +8,14 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "testguide_report-generator"
-version = "1.4-beta"
+version = "1.4.1-beta"
 description = "This generator acts as a helper to create a test.guide compatible test report."
 authors = [ "tracetronic GmbH",]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
-jsonschema = "==4.16.0"
+jsonschema = "^4.16.0"
 
 [tool.poetry.group.workflow.dependencies]
 toml = "^0.10.2"
